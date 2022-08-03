@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.br.com.dio.desafio.dominio.Conteudo;
 import com.company.br.com.dio.desafio.dominio.Curso;
 import com.company.br.com.dio.desafio.dominio.Mentoria;
 
@@ -20,7 +21,7 @@ public class Main {
 
      Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria Java");
-        mentoria.setDescriacao("Campo de descrição da mentoria.");
+        mentoria.setDescricao("Campo de descrição da mentoria.");
         mentoria.setData(LocalDate.now());
 
         System.out.println();
